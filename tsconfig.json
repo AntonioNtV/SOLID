@@ -19,12 +19,12 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@config/*": ["./src/config/*"],
-      "@controllers/*": ["./src/controllers/*"],
-      "@models/*": ["./src/models/*"]
+      "@entities/*": ["./src/entities/*"],
+      "@useCases/*": ["./src/useCases/*"],
+      "@repositories/*": ["./src/repositories/*"]
     } 
   },
   "include": [
-    "src/**/*"
+    "src/**/*.ts"
   ]
 }
